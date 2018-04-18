@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_judul">30dp</dimen>
+    <dimen name="rata_kiri">16dp</dimen>
+    <dimen name="rata_bawah">16dp</dimen>
+    <dimen name="subheading">15dp</dimen>
+    <dimen name="isi">12dp</dimen>
+</resources>

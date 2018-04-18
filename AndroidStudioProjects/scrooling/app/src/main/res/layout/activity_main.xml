@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header"
+        android:textSize="@dimen/size_judul"
+        android:background="@color/colorAccent"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:paddingRight="@dimen/rata_kiri"
+        android:paddingLeft="@dimen/rata_kiri"
+
+        />
+
+    <TextView
+        android:id="@+id/subheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/subheading"
+        android:text="@string/subjudul"
+        android:paddingLeft="@dimen/rata_kiri"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/isi_artikel">
+
+    <TextView
+        android:id="@+id/isi_artikel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/isi"
+        android:text="@string/isi"
+        android:autoLink="web" />
+
+    </ScrollView>
+</LinearLayout>
