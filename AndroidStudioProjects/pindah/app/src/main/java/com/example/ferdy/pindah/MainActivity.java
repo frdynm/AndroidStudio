@@ -1,5 +1,6 @@
 package com.example.ferdy.pindah;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -13,9 +14,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     public void kelayout2(View view) {
         Log.d(LOG_TAG,"Klicked");
+        Intent intent = new Intent(this,layout2.class);
+        startActivity(intent);
     }
 }

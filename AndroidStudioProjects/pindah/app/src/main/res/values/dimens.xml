@@ -2,4 +2,5 @@
 <resources>
     <dimen name="kiri">450dp</dimen>
     <dimen name="bawah">600dp</dimen>
+    <dimen name="ukuran_text">40sp</dimen>
 </resources>
